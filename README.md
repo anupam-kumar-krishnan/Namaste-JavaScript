@@ -1,6 +1,6 @@
 ## _Table Of Content  (Folderwise)_
 
-## _JavaScript Course (01 to 10)_
+## _JavaScript (01 to 10)_
 | _<b>Sr. No.</b>_ | _<b>Topics</b>_ |
 | :-- | :-- |
 | <b>1</b> | <b>_Welcome to Javascript Course_</b> |
