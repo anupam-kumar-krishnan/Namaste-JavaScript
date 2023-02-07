@@ -1,7 +1,8 @@
 ![JavaScript-Notes](https://socialify.git.ci/anupam-kumar-krishnan/JavaScript-Notes/image?font=Raleway&language=1&name=1&owner=1&pattern=Brick%20Wall&theme=Dark)
 ## _Table Of Content  (Folderwise)_
 
-## _JavaScript (01 to 10)_
+
+## _JavaScript Course (01 to 10)_
 | _<b>Sr. No.</b>_ | _<b>Topics</b>_ |
 | :-- | :-- |
 | <b>1</b> | <b>_Welcome to Javascript Course_</b> |
@@ -14,3 +15,26 @@
 | <b>8</b> | <b>_What are conditionals_</b> |
 | <b>9</b> | <b>_Logical Conditional Login_</b> |
 | <b>10</b> | <b>_Ternary Operator in Javascript_</b> |
+
+## _JavaScript Course (11 to 20)_
+| _<b>Sr. No.</b>_ | _<b>Topics</b>_ |
+| :-- | :-- |
+| <b>11</b> | <b>_Switch for role based access in javascript_</b> |
+| <b>12</b> | <b>_Coercion and falsy values_</b> |
+| <b>13</b> | <b>_Basics of functions_</b> |
+| <b>14</b> | <b>_Functions in variable, Useer Role in JS_</b> |
+| <b>15</b> | <b>_Understand the context_</b> |
+| <b>16</b> | <b>_Code hoisting in javascript_</b> |
+| <b>17</b> | <b>_Scope chaining in javascript_</b> |
+| <b>18</b> | <b>_Light intro to THIS in javascript_</b> |
+| <b>19</b> | <b>_Introduction to Array in javascript_</b> |
+| <b>20</b> | <b>_Callback and arrow function introduction in array_</b> |
+
+## _JavaScript Course (12 to 30)_
+| _<b>Sr. No.</b>_ | _<b>Topics</b>_ |
+| :-- | :-- |
+| <b>21</b> | <b>_Fill and Filter in Array in JavaScript_</b> |
+| <b>22</b> | <b>_Slice and Splice in Javascript_</b> |
+| <b>23</b> | <b>_Objects in JavaScript_</b> |
+| <b>24</b> | <b>_Methods and objects in JavaScript_</b> |
+| <b>25</b> | <b>_For loop basics in JavaScript_</b> |
