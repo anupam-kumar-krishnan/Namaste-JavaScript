@@ -38,3 +38,7 @@
 | <b>23</b> | <b>_Objects in JavaScript_</b> |
 | <b>24</b> | <b>_Methods and objects in JavaScript_</b> |
 | <b>25</b> | <b>_For loop basics in JavaScript_</b> |
+| <b>26</b> | <b>_While and do while loops in JavaScript_</b> |
+| <b>27</b> | <b>_For Each Loop in JavaScript_</b> |
+| <b>28</b> | <b>_For in and For of in JavaScript_</b> |
+| <b>29</b> | <b>_Confusing Part of THIS in JavaScript_</b>
