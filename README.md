@@ -1,4 +1,5 @@
 ![JavaScript-Notes](https://socialify.git.ci/anupam-kumar-krishnan/JavaScript-Notes/image?font=Raleway&language=1&name=1&owner=1&pattern=Brick%20Wall&theme=Dark)
+
 ## _Table Of Content_
 
 ## _JavaScript Course (01 to 10)_
