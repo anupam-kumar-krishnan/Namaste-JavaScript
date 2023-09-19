@@ -1,7 +1,13 @@
 # _JavaScript_
-## _let, cont and var_
+## _What the whole thing is about: Data_
+- To store any data we need some memory where we can store
+
+## _let, const and var_
+- **_const:_** once value is assigned, cannot be changed further<br>
+example: const pi=3.14;
 - Prefer not to use **var**, because of issue in **block scope** and **functional scope**
-- In JavaScript, there is a possibility, that we can declare a variable wiouth even using let and var(but it is not prefered)
+- Use const & let
+- In JavaScript, there is a possibility, that we can declare a variable without even using let and var(but it is not prefered)
 
 ## _undefined_
 - In JacaScript, if we decalre a variable without assigning a value to it, then it is called **_undefined_**
@@ -24,7 +30,7 @@ accountCity = "Bengaluru";
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity]);
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
 ```
 </b>
 
