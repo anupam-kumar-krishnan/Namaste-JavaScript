@@ -2,7 +2,11 @@
 ## _Compiler_
 - Compilers already have a **understanding** of syntax used by a **programming language**
 
+- The compiler in JS is in browser which is why earlier people used to make first HTML and then add the Javascript to it. The they used to shoe the output in the console of the browser.
+
 - Earlier, to compile JavaScript, we need to make a HTML file and a JS file. Then we add the JS file to HTML by a script tag. As we all know, before compiler used to compiler JavaScript were inbuilt in Browsers.
+
+- Now JavaScript is not only used in frontend  but also in backend, mobile development and many more.
 
 - But nowdays, that compiler has been segregated and become a standalone software i.e. **_Node.js_**
 
