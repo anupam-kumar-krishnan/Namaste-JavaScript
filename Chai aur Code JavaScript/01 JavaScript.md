@@ -1,6 +1,6 @@
 # _JavaScript_
 ## _Compiler_
-- Compilers already have a understanding of syntax used by a programming language
+- Compilers already have a **understanding** of syntax used by a **programming language**
 
 - Earlier, to compile JavaScript, we need to make a HTML file and a JS file. Then we add the JS file to HTML by a script tag. As we all know, before compiler used to compiler JavaScript were inbuilt in Browsers.
 
