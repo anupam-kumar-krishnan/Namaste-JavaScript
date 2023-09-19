@@ -29,21 +29,21 @@ console.log(3
 
 ## _Datatypes_
 ### _Primitive Datatypes_
-- number => 2 to power 23
-- bigint
-- string => ""
-- boolean => true/false
-- null => standard value
-- undefined =>
-- symbol => unique
-- Object
-- null is an Object
+- **number** => 2 to power 53(range)
+- **bigint**
+- **string**    => ""
+- **boolean**   => true/false
+- **null**      => standard value (null is representation of empty value)
+- **undefined** => when value is not defined
+- **symbol**    => unique (mostly used in react js)
+- **Object**
+- **null** is an Object
 
 <b>
 
 
 ```js
-console.log(typeof undefined) // undefined
+console.log(typeof undefined) // undefined(undefined is a type in itself)
 console.log(typeof null) // object
 ```
 </b>
