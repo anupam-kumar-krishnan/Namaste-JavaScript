@@ -12,6 +12,9 @@ alert(3+3) // we are using Node JS, not browser
 ```
 </b>
 
+## _JavaScript Standard_
+- **ECMAScript** : tc39
+
 
 ## _code readability_
 <b>
