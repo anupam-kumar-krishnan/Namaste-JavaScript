@@ -32,7 +32,7 @@ console.log(3
 
 ## _Datatypes_
 ### _Primitive Datatypes_
-- **number** => 2 to power 53(range)
+- **number** => (253 - 1) and more than -(253 - 1)
 - **bigint**
 - **string**    => ""
 - **boolean**   => true/false
