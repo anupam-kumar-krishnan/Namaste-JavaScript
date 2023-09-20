@@ -32,7 +32,7 @@ console.log(3
 
 ## _Datatypes_
 ### _Primitive Datatypes_
-- **number** => (253 - 1) and more than -(253 - 1)
+- **number** => (2^53 - 1) and more than -(2^53 - 1)
 - **bigint**
 - **string**    => ""
 - **boolean**   => true/false
