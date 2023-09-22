@@ -4,7 +4,7 @@
 - _**Primitive Datatype** (Call by Value)_
 - _**Non-Primitive Datatype** (Call by Reference)_
 
-## _Difference b/w Priitive and Non-Primitive Datatype_
+## _Difference b/w Primitive and Non-Primitive Datatype_
 ### **_Primitive Datatype:_**
 - String
 - Number
