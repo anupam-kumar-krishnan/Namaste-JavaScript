@@ -66,7 +66,7 @@ console.log(typeof myFunction); //function
 ### _Big Integer_
 ```js
 let bigNumber = 123456978n;
-console.log(typeof bigNumber); //undefined
+console.log(typeof bigNumber); //bigint
 ```
 </b>
 
