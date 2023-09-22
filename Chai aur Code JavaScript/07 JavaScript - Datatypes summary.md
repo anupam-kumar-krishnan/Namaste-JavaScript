@@ -77,7 +77,7 @@ console.log(typeof bigNumber); //bigint
 - Boolean => Boolean
 - null => object
 - undefined => undefined
-- Symbol =? Symbol
+- Symbol => Symbol
 - BigInt => bigInt
 
 ### _Non Primitive Datatypes_
