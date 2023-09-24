@@ -1,8 +1,21 @@
 ## _Memory in JavaScript_
 
 ### _There are two types of Memory_
-- Stack (Primitive type) (will get a copy, original value doesn't change)
-- Heap (Non-Primitive type) (will get reference, original value does change)
+## **_Stack_** 
+<b><i>
+```
+- Primitive type 
+- will get a copy, original value doesn't change)
+```
+</b></i>
+
+## **_Heap_** 
+<b><i>
+```
+- Non-Primitive type
+- will get reference, original value does change
+```
+</b></i>
 
 <b>
 
