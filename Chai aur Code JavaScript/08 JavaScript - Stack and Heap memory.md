@@ -19,6 +19,8 @@
 
 <b>
 
+
+### _Example of Stack_
 ```js
 let myYoutubename = "HiteshChoudharydotcom";
 
@@ -27,7 +29,14 @@ anothername = "chaiaurcode"
 
 console.log(myYoutubename); // HiteshChoudharydotcom
 console.log(anothername); // chaiaurcode
+
+// Here, original value doesn't change i.e. myYoutubename remains as it is
+// This is an example of Stack
 ```
+
+
+### _Example of Heap_
+
 ```
 let userOne = {
     email: "user@google.com",
