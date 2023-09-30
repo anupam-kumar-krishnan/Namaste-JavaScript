@@ -6,9 +6,9 @@
 
 - Earlier, to compile JavaScript, we need to make a HTML file and a JS file. Then we add the JS file to HTML by a script tag. As we all know, before compiler JavaScript used to be compiled by inbuilt in Browsers.
 
-- Now JavaScript is not only used in frontend  but also in backend, mobile development and many more.
+- Now _**JavaScript**_ is not only used in _**Frontend**_  but also in _**Backend**_, _**Mobile Development**_ and many more.
 
-- But nowdays, that compiler has been segregated and become a standalone software i.e. **_Node.js_**
+- But nowdays, that compiler has been segregated and become a **standalone software** i.e. **_Node.js_**
 
 - The **compiler** used for _compiling_ JavaScript Code is _**Node JS**_
 
@@ -18,7 +18,7 @@
 
 - Mostly _**Node JS**_ is used for _**JavaScript**_
 
-- If we are working on a production grade application, then we will used Long Term Support(LTS) version, otherwise we will use Current stable version.
+- If we are working on a production grade application, then we will used _**Long Term Support(LTS)**_ version, otherwise we will use _**Current stable version.**_
 
 ### _To run  JS file via Terminal_
 
