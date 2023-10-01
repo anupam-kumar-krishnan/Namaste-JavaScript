@@ -5,7 +5,7 @@
 ## _let, const and var_
 - **_const:_** once value is assigned, cannot be changed further<br>
 example: const pi=3.14;
-- Prefer not to use **var**, because of issue in **block scope** and **functional scope**
+- **_var:_** Prefer not to use **var**, because of issue in **block scope** and **functional scope**
 - Use const & let
 - In JavaScript, there is a possibility, that we can declare a variable without even using let and var(but it is not prefered)
 
