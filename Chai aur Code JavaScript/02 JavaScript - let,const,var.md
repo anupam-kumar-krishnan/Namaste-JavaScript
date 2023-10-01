@@ -30,7 +30,13 @@ accountCity = "Bengaluru";
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+console.table([
+    accountId,
+    accountEmail,
+    accountPassword,
+    accountCity,
+    accountState
+]);
 ```
 </b>
 
