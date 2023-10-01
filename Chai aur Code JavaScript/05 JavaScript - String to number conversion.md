@@ -1,4 +1,5 @@
-# _Operations_
+### _Lecture 7 - Why String to Number is Confusing | Chai aur Code_ 
+## _Operations_
 <b>
 
 ```js
@@ -10,13 +11,14 @@ console.log(negValue); // -3
 ```js
 let str1 = "Hello"
 let str2 = "Hitesh"
-let str3 = str1 + str2;
+let str3 = str1 + " " + str2;
 
 console.log(str3); // Hello Hitesh
 
 console.log("1" + 2); // 12
 console.log(1 + "2"); // 12
-console.log("1" + 2 + 2) // 122
+console.log("1" + 2 + 2) // 122 
+// if first i string then rest all will be treated as string
 console.log(1 + 2 + "2") // 32
 
 console.log(true); // true
