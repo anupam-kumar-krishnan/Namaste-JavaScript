@@ -1,11 +1,11 @@
-## _Datatypes Summary in Javascript_
+## _Lecture 9 - Datatypes in Javascript Summary_
 
 ### _Datatypes in JavaScript are divided into two parts:_
 - _**Primitive Datatype** (Call by Value)_
 - _**Non-Primitive Datatype** (Call by Reference)_
 
 ## _Difference b/w Primitive and Non-Primitive Datatype_
-### **_Primitive Datatype:_**
+### **_Primitive Datatype (Call by Value):_**
 - String
 - Number
 - Boolean
@@ -14,7 +14,7 @@
 - Symbol
 - BigInt
 
-### **_Non-Primitive Datatype:_**
+### **_Non-Primitive Datatype (Call by Reference):_**
 - Array
 - Objects
 - Functions
