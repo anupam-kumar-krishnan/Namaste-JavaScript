@@ -1,4 +1,4 @@
-## _Comparison of datatypes in JavaScript_
+### _Lecture 8 - Comparison of datatypes in JavaScript | Chai aur JavaScript_
 
 <b>
 
@@ -6,6 +6,8 @@
 ```js
 console.log(2 > 1); //true
 console.log(2 >= 1); //true
+
+// Here, both the strings got converted into number by JavaScript
 console.log("2" >= 1); // true
 console.log("02" >= 1); //true
 
