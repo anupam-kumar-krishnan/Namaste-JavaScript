@@ -1,11 +1,13 @@
+## _Lecture 10 - Stack and Heap memory in Javascript_
+
 ## _Memory in JavaScript_
 
-### _There are two types of Memory_
+### _There are two types of Memory:_
 ## **_Stack_** 
 <b><i>
 ```
 - Primitive type 
-- will get a copy, original value doesn't change)
+- will get a copy, original value doesn't change
 ```
 </b></i>
 
@@ -18,7 +20,6 @@
 </b></i>
 
 <b>
-
 
 ### _Example of Stack_
 ```js
@@ -37,7 +38,7 @@ console.log(anothername); // chaiaurcode
 
 ### _Example of Heap_
 
-```
+```js
 let userOne = {
     email: "user@google.com",
     upi: "user@ybl"
