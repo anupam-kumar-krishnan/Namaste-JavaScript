@@ -10,7 +10,7 @@ example: const pi=3.14;
 - In JavaScript, there is a possibility, that we can declare a variable without even using let and var(but it is not prefered)
 
 ## _undefined_
-- In JacaScript, if we decalre a variable without assigning a value to it, then it is called **_undefined_**
+- In JavaScript, if we decalre a variable without assigning a value to it, then it is called **_undefined_**
 
 <b>
 
