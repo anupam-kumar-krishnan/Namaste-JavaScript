@@ -1,4 +1,4 @@
-## _Numbers & Maths_
+## _Lecture 12 - Numbers & Maths in JavaScript_
 
 <b>
 
