@@ -18,7 +18,7 @@
 
 - Mostly _**Node JS**_ is used for _**JavaScript**_
 
-- If we are working on a production grade application, then we will used _**Long Term Support(LTS)**_ version, otherwise we will use _**Current stable version.**_
+- If we are working on a production grade application, then we will use _**Long Term Support(LTS)**_ version, otherwise we will use _**Current stable version.**_
 
 ### _To run  JS file via Terminal_
 
