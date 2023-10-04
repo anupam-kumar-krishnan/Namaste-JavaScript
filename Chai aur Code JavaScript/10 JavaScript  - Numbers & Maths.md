@@ -57,7 +57,9 @@ console.log(Math.ceil(4.2)); //5
 
 // floor Always selects lower value
 console.log(Math.floor(4.2)); //4
-console.log(Math.round(4.9)); //4
+console.log(Math.floor(4.9)); //4
+console.log(Math.round(4.9)); //5
+
 
 // min() and max()
 console.log(Math.min(4, 3, 6, 8)); //3
