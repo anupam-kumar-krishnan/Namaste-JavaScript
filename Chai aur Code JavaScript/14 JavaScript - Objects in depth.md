@@ -76,6 +76,12 @@ const JsUser = {
 };
 
 console.log(JsUser.email); // mykey1
+
+/************************NOTE**************************
+there is no change in value but, in interviews
+correct Syntax of Symbol: const mySym = Symbol("key1")
+Treat Symbol like Value: [mySym]: "mykey1"
+*******************************************************/
 ```
 
 
@@ -114,10 +120,20 @@ console.log(JsUser);
 }
 */
 // Email didn't change after hitesh@chatgpt.com
+// as it is freezed after hitesh@chatgpt.com
 
+/******************************NOTE************************************
+- To refer Symbol: Use Square Brackets
+  i.e. [mySym]: "mykey1"
 
-
+- To refer as key Value Pair: Write as it is, without square bracket
+  i.e. mySym: "mykey1"
+************************************************************************/
 ```
+
+## _Add Function_
+- From `12:43` Video 15
+
 
 
 </b>
