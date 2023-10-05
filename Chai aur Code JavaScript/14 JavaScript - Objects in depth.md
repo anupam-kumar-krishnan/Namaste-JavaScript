@@ -1,19 +1,24 @@
 ## _Lecture 16 - Objects in depth in Javascript_
 
-Two ways to define an object:
+**_Two ways to define an object:_**
 - Literal
 - Constructor
 
 ### _Singleton_
-Whenever object defined as **constructor**, singleton object is made
+- Whenever object defined as **_constructor_**, _**singleton**_ object is made
+- Whenever object defined as **literal**, singleton object is not made
+
+### _Object_
+- In Object, there is concept of _**keys & values**_
+- By default, name is considered as "name" by system but not written in real
 
 <b>
 
 ```js
 // Singlton
-// Object Literals
 // Object.create - this is constructor method, and singleton is made in this
 
+// Object Literals
 const JsUser = {
     name: "Hitesh",
     "full name" : "Hitesh Choudhary",
