@@ -1,5 +1,6 @@
-![JavaScript-Notes](https://socialify.git.ci/anupam-kumar-krishnan/JavaScript-Notes/image?font=Raleway&language=1&name=1&owner=1&pattern=Brick%20Wall&theme=Dark)
-
+# _Namaste JavaScript_  
 ## _Table of Content_
-Ep. 1. How JavaScript Works & Execution Context
+### 🚀 _Ep. 1. How JavaScript Works🔥 & Execution Context_ <br>
+### 🚀 _Ep. 2. How JavaScript Code is executed?❤️ & Call Stack_ <br>
+### 🚀 _Ep. 3. Hoisting in JavaScript 🔥(variables & functions)_ <br>
 
