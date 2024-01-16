@@ -47,6 +47,8 @@ function getName() {
 
 ## _Isn't `undefined` & `not defined` the same thing? NO_
 
+<b>
+
 ```js
 getName();
 console.log(x);
@@ -56,6 +58,7 @@ function getName() {
    console.log("Namaste JavaScript");
 }
 ```
+</b>
 
 - If we remove `var x = 7;`, as soon as the code runs the first line, JavaScript has not reserved memory for `x` but only for function getName() 
 - And the code tries to access `x` but will not be found as we have removed that. There is no value for `x`
