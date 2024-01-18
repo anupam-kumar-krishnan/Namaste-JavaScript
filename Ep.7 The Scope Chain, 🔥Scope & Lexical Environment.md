@@ -3,7 +3,7 @@
 ### _Can we access b inside function a()_
 - JavaScript will try to find out weather b exists in the local memory space or not 
 - JavaScript will try to find out this b inside a's Execution Context, but it will not be found as we never created b inside that function
-- Now what will happen/ Will it print `undefined`- that special placeholder or `not defined`?
+- Now what will happen? Will it print `undefined`- that special placeholder or `not defined`?
 - This print 10 as an output, that means somehow inside the function, this `b` can _**access**_ the `b` which is _**outside the function**_ 
 
 <b>
@@ -19,7 +19,7 @@ a();
 // 10
 ```
 ### _Can I access b now?_
-- Yes, still I can access `b
+- Yes, still I can access `b`
 
 ```js
 function a() {
@@ -105,6 +105,11 @@ console.log(b);
 - It won't find, because there is no b inside this local memory
 
 - Now, what happens JavaScript Engine goes to the reference and goes to the lexical environment of it's parent
+
+## _Scope Chain_
+- Scope Chain is nothing but the `Chain of Lexical Environment` and the `Parent references`
+- Scope chains establish the scope for a given function. Each function defined has its own nested scope, and any function defined within another function has a local scope which is linked to the outer function — this link is called the chain.
+
 
 
 
