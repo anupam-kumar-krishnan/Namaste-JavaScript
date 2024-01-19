@@ -108,7 +108,7 @@ console.log(b);
 
 ## _Scope Chain_
 - Scope Chain is nothing but the `Chain of Lexical Environment` and the `Parent references`
-- Scope chains establish the scope for a given function. Each function defined has its own nested scope, and any function defined within another function has a local scope which is linked to the outer function — this link is called the chain.
+- Scope chains establish the scope for a given function. Each function defined has its own nested scope, and any function defined within another function has a local scope which is linked to the outer function — this link is called the _**chain.**_
 
 
 
