@@ -3,7 +3,7 @@
 ### _Can we access b inside function a()_
 - JavaScript will try to find out weather b exists in the local memory space or not 
 - JavaScript will try to find out this b inside a's Execution Context, but it will not be found as we never created b inside that function
-- Now what will happen? Will it print `undefined`- that special placeholder or `not defined`?
+- Now what will happen? Will it print **`undefined`**- that special placeholder or **`not defined`**?
 - This print 10 as an output, that means somehow inside the function, this `b` can _**access**_ the `b` which is _**outside the function**_ 
 
 <b>
