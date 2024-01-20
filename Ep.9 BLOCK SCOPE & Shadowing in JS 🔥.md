@@ -124,6 +124,79 @@ console.log(a);
 ```
 </b>
 
+## _Shadowing in function_
+
+<b>
+
+```js
+var c = 100;
+function x() {
+ var c = 30;
+ console.log(window.c);
+ window.c = 20;
+}
+x();
+console.log(c);
+
+//Output
+//30
+//100
+```
+</b>
+
+## _Illegal Shadowing_
+- What if you shadow a let variable using  a var variable which is inside the block
+   - If you want to shadow let variable inside the block scope using var, you cannot do that(Illegal Shadowing)
+- It is like Illegal Shadowing, you cannot just do the shadowing
+- But what if you shadow let variable inside the block scope using let, this is okay
+
+<b>
+
+```js
+let a = 20;
+{
+ var a = 20;
+}
+
+//Output
+//Uncaught SyntaxError: Identifier 'a' has already been declared
+```
+</b>
+
+
+## _Allowed Shadowing:_
+
+<b>
+
+```js
+let a = 20;
+{
+ let a = 40;
+}
+
+```
+```js
+var a = 20;
+{
+ let a = 20;
+}
+
+```
+</b>
+
+## _Arrow Function_
+- Wether you declare you function with function keyword or an arrow function, we feel that those might have different scope but they are exactly same
+- Thus all the rules which work on function, works the same for arraow function too
+
+
+
+
+
+
+
+
+
+
 
 
 
