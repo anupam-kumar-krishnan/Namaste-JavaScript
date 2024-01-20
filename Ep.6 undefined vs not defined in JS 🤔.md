@@ -1,5 +1,5 @@
 ## _undefined_
-- JavaScript tries to allocate memeory to the variables & function even befre we run the code
+- JavaScript tries to allocate memeory to the variables & function even before we run the code
 
 <b>
 
@@ -10,7 +10,7 @@
 
 
 - In the above code, with debugger at line var a=7;, JavaScript already reserves a memory for `a` 
-- That _**reserved memory**_ has been given a placeholder named as `undefined` 
+- That _**reserved memory**_ has been given a placeholder named as **`undefined`** 
 - `undefined` is like a _**placeholder**_ which is placed in the memory
 
 <b>
