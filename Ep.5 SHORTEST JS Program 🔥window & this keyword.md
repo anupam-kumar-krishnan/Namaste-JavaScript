@@ -6,7 +6,7 @@
 - It creates the `GEC`, the `window` and the `this` variable
 - Everywhere JS is running, there must be a `JavaScript Engine` there. For Chrome: v8
 - All these JS Engines has responsibility to create this global object
-- In case of browsers, it is known as `Window'
+- In case of browsers, it is known as `Window`
 - At the global level, `this` is equal to `window`
 
 <b>
@@ -18,7 +18,7 @@ this === window -> true (at global level)
 
 ## _Global Space_
 - Global Space is nothing but any code in javascript which is not inside a `function`
-- Whenever you create any variables or functions in Global Space, these varibales & functions get attached to the Global Object i.e. `Window`
+- Whenever you create any variables or functions in Global Space, these variables & functions get attached to the Global Object i.e. `Window`
 
 <b>
 
