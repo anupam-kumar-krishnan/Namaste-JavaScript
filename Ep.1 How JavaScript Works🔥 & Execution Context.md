@@ -4,8 +4,8 @@
 
 ## _Execution Context_
 ### _Execution Context has two Components_
-- **_Memory:_** It consists of Variables & Functions in **`Key Value Pairs`**. It is also called **`Variable Environment`**
-- **_Code:_** This is the place where the code executes line by line. It is also called **`Thread of Execution.`**
+- **_Memory:_** The place where all the variables and functions are stored as (key:value) pairs. Memory component is also known as **_Variable Environment_**
+- **_Code:_** The place where code is executed one line at a time. . Code Component is also known as **_Thread of Execution_**
 
 ![ec](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/7a8871d0-269d-4f87-bf02-cd23a7d1f281)
 
