@@ -12,6 +12,12 @@
 | _Episode 8_ | _**Let & const in JS 🔥Temporal Dead Zone**_ |
 | _Episode 9_ | _**BLOCK SCOPE & Shadowing in JS 🔥**_ |
 | _Episode 10_ | _**Closures in JS 🔥**_ |
+| _Episode 11_ | _**setTimeout + Closures Interview Question 🔥**_ |
+| _Episode 12_ | _**Crazy JS Interview ft. Closures**_ |
+| _Episode 13_ | _**FIRST CLASS FUNCTIONS 🔥ft. Anonymous Functions**_ |
+
+
+
 
 
 
