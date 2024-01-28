@@ -115,7 +115,7 @@ console.log(b); //10
 - It won't find, because there is no b inside this local memory
 
 - Now, what happens JavaScript Engine goes to the reference and goes to the lexical environment of it's parent which is `a` in this case
-- This time, it finds `b` in `a()`(Lexical Exronment of c)
+- This time, it finds `b` in `a()`(Lexical Environment of c)
 - It goes back in function `c()` and prints the value of `b` in console
 
 
