@@ -87,6 +87,8 @@ _**There are 2 ways to look at this:**_
 - c() is lexically sitting inside a()
 - Where the code is physically present
 - Lexical Parent of c is a (because c is lexically inside a, that means it will get access of  lexical environment of a also)
+- Lexical Parent of a is null as a is in Global Execution Context whose Parent is null
+
 
 ## _How Scope and Lexical Environment works in JavaScript_
 
@@ -101,8 +103,8 @@ function a(){
   }
 }
 
-a();
-console.log(b);
+a(); //10
+console.log(b); //10
 ```
 
 </b>
@@ -112,7 +114,11 @@ console.log(b);
 - First it check if b exits in local memory or not
 - It won't find, because there is no b inside this local memory
 
-- Now, what happens JavaScript Engine goes to the reference and goes to the lexical environment of it's parent
+- Now, what happens JavaScript Engine goes to the reference and goes to the lexical environment of it's parent which is `a` in this case
+- This time, it finds `b` in `a()`(Lexical Exronment of c)
+- It goes back in function `c()` and prints the value of `b` in console
+
+
 
 ## _Scope Chain_
 - Scope Chain is nothing but the `Chain of Lexical Environment` and the `Parent references`
