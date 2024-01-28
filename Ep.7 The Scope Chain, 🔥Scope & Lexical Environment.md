@@ -18,12 +18,16 @@ a();
 // Output
 // 10
 ```
+</b>
 
 ![scope 1](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/e08879b0-04d1-4ad9-a98d-f671ac1f96cb)
 
 
 ### _Can I access b now?_
 - Yes, still I can access `b`
+- Even inside the function(c), which is inside another function(a), which is inside the Global Scope, I can access `b`
+
+<b>
 
 ```js
 function a() {
@@ -58,17 +62,17 @@ function a(){
 a();
 console.log(b);
 
-//Output
-//b is not defined
+// Output
+// b is not defined
 ```
 </b>
 
 ## _Scope_
 - Scope means where you can access a specific variable or a function in our code
-- Scope is directly dependent on the `Lexical Environment`
+- _**Scope**_ is _**directly**_ dependent on the **`Lexical Environment`**
 
 _**There are 2 ways to look at this:**_
-- Where can I access this variable b(here in example)
+- Where can I access this variable b(What is the scope of variable b, here in example)
 - Is b inside the scope of function c(Can I access b inside c)
 
 ## _Lexical Environment_
