@@ -45,7 +45,7 @@ if(true) true;
 
 - **_But what if you want to write multiple statements?_**
    - Here, you can use this **_Block_** and write multiple statements
-   - So, these Group of multiple stetements can be used in a place where JavaScript expects a Single Statement
+   - So, these Group of multiple statements can be used in a place where JavaScript expects a Single Statement
    - And that is the reason why we often use `if` without any `curly braces {}` right. If in itself doesn't have any curly braces in it's syntax.
 
 ## _What is a Block Scope?_
