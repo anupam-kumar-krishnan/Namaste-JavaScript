@@ -122,7 +122,7 @@ z();
 
 - Here comes _**Closure**_ into picture. 
 - Functions are so beautiful that when they are returned from another function, they still maintains their _**Lexical Scope.**_ They remember where they were actually present.
-- Though, x no longer exists, but still this y() function remembers  it's lexical scope, where it came from. It remembers tat there is something a and it has the binding strong their.
+- Though, x no longer exists, but still this y() function remembers  it's lexical scope, where it came from. It remembers that there is something a and it has the binding strong their.
 - In Simple words, when you return this y, then not just that function code was returned but a **_Closure_** was returned. Closure with **_function_** along with _**it's lexical scope**_ that was **_returned._**
 
 ## _Corner Cases in Closures_
@@ -153,7 +153,7 @@ z();
 </b>
 
 - The function along with the _**reference to those variables**_ (not the value)
-- Here, in the code the reference points to 100, that means that 100 is still in the memory preserved because of **_Closure_** and when x was gone, it was not garbage collected, it has be to used later. So that way that **_Closure_** is like giving us **_100._** 
+- Here, in the code the reference points to 100, that means that 100 is still in the memory preserved because of **_Closure_** and when x was gone, it was not garbage collected, it will be used later. So that way that **_Closure_** is like giving us **_100._** 
 
 <b>
 
