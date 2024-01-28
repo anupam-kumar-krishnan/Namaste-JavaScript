@@ -120,6 +120,42 @@ var b = function xyz(){
 ```
 </b>
 
+### _What is the difference between Parameters & Arguments?_
+
+<b>
+
+```js
+var b = function (param1, param2){
+   console.log("b called");
+}
+
+b(1,2);
+```
+</b>
+
+
+- And **_Arguments_** are the value which we pass inside a function while calling the function (b(1,2))
+- These local variables or label or identifiers (param1 & param2) which gets thpose values are known as _**Parameters**_
+
+### _First Class Functions in JavaScript_
+- The ability to use functions as values is known as **_First Class Function_**
+- The ability to use functions as value and then assign to a variable and can be passed into another functions and can be returned out of another functions. This ability is altogether is known as _**First Class Functions**_
+
+### _Functions are First Class Citizens_
+- Funtions are used as _**First Class Citizens**_ is _**same**_ as _**First Class Functions**_
+- It means the same thing
+- The ability to be used like values makes the function as _**First Class Citizens**_ in JavaScript
+
+
+
+
+
+
+
+
+
+
+
 
 
 
