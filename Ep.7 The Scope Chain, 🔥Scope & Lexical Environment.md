@@ -18,6 +18,10 @@ a();
 // Output
 // 10
 ```
+
+![scope 1](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/e08879b0-04d1-4ad9-a98d-f671ac1f96cb)
+
+
 ### _Can I access b now?_
 - Yes, still I can access `b`
 
