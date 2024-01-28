@@ -32,7 +32,7 @@ if(true)
 </b>
 
 
-- It is a SytaxError because this if expects a statement here(one statement)
+- It is a Syntax Error because this if expects a statement here(one statement)
 
 <b>
 
@@ -97,8 +97,9 @@ console.log(c);
 
 
 ## _What is Shadowing in JavaScript?_
-- If we have same named variable outside & inside the block, then the variable inside the block shadows the variable outside the block
-- Also, the value of variable inside the block replaces the value of outer variable because they both are pointing tothe same memory location
+- If we have same named variable outside & inside the block, then the variable inside the block __**shadows**_ the variable outside the block
+- Also, the value of variable inside the block replaces the value of outer variable because they both are pointing to the same memory location
+
 <b>
 
 ```js
@@ -145,7 +146,7 @@ console.log(c);
 </b>
 
 ## _Illegal Shadowing_
-- What if you shadow a let variable using  a var variable which is inside the block
+- **_What if you shadow a let variable using a var variable which is inside the block_**
    - If you want to shadow let variable inside the block scope using var, you cannot do that(Illegal Shadowing)
 - It is like Illegal Shadowing, you cannot just do the shadowing
 - But what if you shadow let variable inside the block scope using let, this is okay
