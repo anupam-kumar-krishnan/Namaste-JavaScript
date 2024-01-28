@@ -255,7 +255,7 @@ console.log(a);
 ### _var_
 - Keep var aside
 - Don't use it now
-- Yse it ver consciously
+- Use it Very consciously
 
 ## _How to avoid Temporal Dead Zone_
 - Always put your declarations & initializations on the top of the scope
