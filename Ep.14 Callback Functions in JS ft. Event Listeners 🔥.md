@@ -34,6 +34,7 @@ setTimeout(function(){
 
 function x(y){
     console.log("x");
+    y();
 }
 
 x(function y(){
@@ -48,6 +49,80 @@ x(function y(){
 - And as we already know that JavaScript will not wait for setTimeout to finish over here. That's why we say, callback gives us the power of Asynchronicity
 - And whatever needs to be done after 5000ms, we are passing that feature or those piece of code as a callback function to the setTimeout. It will be later executed.
 - Remember we said `Time, Tide and JavaScript` waits for none. Now the code will move on.
+- Till thsi point of time, this 5000ms won't have expired
+- Now, it will x(), y() and goes on... and after sometime this 5000ms expire, once this callback function is expired, the callback function is then executed
+- _**Output will be:**_
+
+``` 
+x
+y
+timer
+```
+
+## _Blocking Main Thread in JavaScript_
+- Everything executed on the webpage is executed on the _**Call Stack**_ only
+- And if any operation blocks the call stack, that is known as _**Blocking the Main Thread**_
+- We should always use **_Async Operations_** for things which take time
+
+## _Creating an Event Listners in JavaScript_
+
+![event listner](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/ba6b591e-01f0-4e91-8988-553f74281277)
+
+- Whenever we click the button, this callback function pushed into the call stack and execute it
+
+## _Closure along with Event Listners in JavaScript_
+
+_**Let's print the number of times button is Clicked**_
+
+```js
+let count = 0;
+document.getElementById("clickMe").addEventListener("click", function xyz() {
+  console.log("Button CLicked", ++count);
+});
+```
+
+- How can we make sure that count is only used for counting the times btn is clicked
+- We use _**Closure**_ for _**Data Hiding**_
+- Let's create a _**Closure**_
+
+<b>
+
+```js
+function attachEventListeners() {
+  let count = 0;
+  document.getElementById("clickMe")
+   .addEventListener("click", function xyz() {
+    console.log("Button CLicked", ++count);
+  });
+}
+
+attachEventListeners();
+```
+</b>
+
+- Now this callback funtion over here is forming a Closure with it's **_Outer Scope_**
+
+
+## _Garbage Collection & remove Event Listeners_
+
+- **_Why do we need to removed EventListeners?_**
+   - EventListeners are heavy, that means it takes memory
+   - Whenever you attach an EventListener, it kind of attach a Closure 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
