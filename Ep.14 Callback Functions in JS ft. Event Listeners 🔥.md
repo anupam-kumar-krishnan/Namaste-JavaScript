@@ -1,6 +1,6 @@
 ## _What is Callback function in JavaScript_
 - To understand **`Event Loop`** properly, you should know what a _**`Callback Function`**_ is and what are it's uses.
-- From previous lectures, we know that functions are `First Class Citizens` in JavaScript. _**First Class Functions**_ means you can take a function and pass it into another function
+- From previous lectures, we know that functions are **`First Class Citizens`** in JavaScript. _**First Class Functions**_ means you can take a function and pass it into another function
 - And when you take a function and pass it into another funtion is known as _**Callback Function**_
 
 ## _Advantages of Callback_
@@ -74,12 +74,15 @@ timer
 
 _**Let's print the number of times button is Clicked**_
 
+<b>
+
 ```js
 let count = 0;
 document.getElementById("clickMe").addEventListener("click", function xyz() {
   console.log("Button CLicked", ++count);
 });
 ```
+</b>
 
 - How can we make sure that count is only used for counting the times btn is clicked
 - We use _**Closure**_ for _**Data Hiding**_
