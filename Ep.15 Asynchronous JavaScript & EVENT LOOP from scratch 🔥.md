@@ -40,11 +40,6 @@
 ![Super Power of Browsers](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/2efdcfd2-1b91-4794-99de-7cdd6b86da40)
 
 
-
-
-
-
-
 - Suppose in JavaScript Code which is running in Global Execution Context(which is inside Call Stack) need access to these Super Power of Browsers. Wee need to have that kind of connection.
 
 - This JS Engine needs some way to access those Super Powers of Browsers.
@@ -78,6 +73,53 @@
 - Similarly, fetch gives us the access to make connections to the other servers(like the external servers)
 - And we get it inside the _**Call Stack**_ because of the _**Global Object i.e.(window)**_
 - In case of browsers, browsers gives _**JavaScript Engine**_ the facility to use all these Super Power through a **keyword** known as _**window**_
+
+## _How setTimeout Works behind the scenes in Browsers_
+
+![setTimeout](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/28f9f206-8b7b-4c84-b3f0-07ff4fee2efd)
+
+### _**Let's run the code line by line**_
+
+![Code before execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/09b92c04-4b17-4939-9b09-76ed5f364a01)
+
+- **`console.log`** => this basically calls the _**Web APIs**_ and it internally makes a call to actually modify or log something inside the _**`console`**_
+- You can access this **_console_** or do a **_console.log_** just because you have this **_console API_** and this API is plugged through **_`window`_** to your **_JavaScript Code_**
+- Now, we move to the next line, **`setTimeout`** => this `setTimeout` will basically go and _**call**_ this _**Web API**_ and this gives us **_access_** to this **_Timer feature of this browser._**
+- And this setTimeout, take a callback function and some delay.
+- When you pass this function to setTimeout, this basically registers a callback
+- And bacause we pass this _**delay**_, it also starts a timer of _**5000ms**_
+- And JavaScript code moves to the next line, it doesn't wait for anyone
+- Moving to the next line, it sees _**`console.log("End");`**_ , and again it calls the console from the Web APIs through `window` and logs this **_`End`_** in the console.
+- Now this `Timer` is still running, it is just count 5000ms and we are done with executing all our code
+- And once all our code is done executing, the _**Global Execution Context**_ just pops of the stack 
+- And meanwhile all this is happening, this timer is still running, doing a countdown og 5, 4, 3, .... and as soon as this timer expires, this **_callback funtion(cb)_** needs to be executed 
+- And because we know, all our code in JavaScript is Executed inside this _**Call Stack**_ , we somehow need this callback function(cb) inside this **_Call Stack_**
+- This _Call Stack_ job is to quickly execute whatever comes inside it(as it is empty currently)
+
+![Code after execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/4139605b-6fe0-46a6-be6b-82a439067030)
+
+
+- Now comes into the picture the _**Event Loop**_ and _**Callback Queue**_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
