@@ -75,7 +75,7 @@
 - In case of browsers, browsers gives _**JavaScript Engine**_ the facility to use all these Super Power through a **keyword** known as _**window**_
 
 ## _How setTimeout Works behind the scenes in Browsers_
-
+### _Example 1_
 ![setTimeout](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/28f9f206-8b7b-4c84-b3f0-07ff4fee2efd)
 
 ### _**Let's run the code line by line**_
@@ -96,10 +96,24 @@
 - And because we know, all our code in JavaScript is Executed inside this _**Call Stack**_ , we somehow need this callback function(cb) inside this **_Call Stack_**
 - This _Call Stack_ job is to quickly execute whatever comes inside it(as it is empty currently)
 
-![Code after execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/4139605b-6fe0-46a6-be6b-82a439067030)
+![Code after execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/73b51dc8-bbbb-45b9-b6be-29cf3c320581)
 
+
+## _Event Loop & Callback Queue_
 
 - Now comes into the picture the _**Event Loop**_ and _**Callback Queue**_
+- As we know, we somehow needs this _Callback(cb)_ in the _**Call Stack.**_ But it **_can't go directly._**
+- How does this Callback function (cb) go to the _**Call Stack**_
+  - It wil go to the _Call Stack_ through this **_Callback Queue_**
+  - So when the **timer expires**, this **callaback** function is put inside the **_Callback Queue_**
+- The job of the **_Event Loop_** is to _check the Callback Queue_ and put the **_functions_** of the Callback Queue into the **_Call Stack_**
+- So Event Loop over here acts like a Gate Keeper and it checks whether we have something in the Callback Queue and if we have something, it just pushes inside the **_Call Stack_** 
+
+## _How Event Listners Work_
+
+
+
+
 
 
 
