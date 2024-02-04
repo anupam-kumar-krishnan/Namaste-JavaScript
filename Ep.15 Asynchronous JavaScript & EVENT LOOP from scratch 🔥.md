@@ -110,6 +110,26 @@
 - So Event Loop over here acts like a Gate Keeper and it checks whether we have something in the Callback Queue and if we have something, it just pushes inside the **_Call Stack_** 
 
 ## _How Event Listners Work_
+### _Example 2_
+- Whenever you run a JavaScript code, a Global Execution Context(GEC) is created and pushed inside the **_Call Stack_**
+- Code is executed line by line
+- It moves to the first line and sees the `console.log("Start");` and it goes to the console(which is inside Web API, calls this method - Web API method) and logs in the console over here
+- Now code moves to the next line, **_`document.getElementById("btn").addEventListener("click" function cb()`_** ,  this addEventListener is another Super Power which is given by the _Browser_ to the **_JavaScript Engine_**  through the `window` object in form of a Web API which is the **_`DOM API`_**
+- So whenever you do something like **_`document.`_** it basically calling the _**DOM APIs**_
+which basically in turn _**fetches**_ something from the **_Document Object Model[DOM](it is like the HTML source code_**
+- This _**DOM API**_ basically **access** the **_HTML code_** and tries to find out a _**button**_ with some `id` and **return** it
+- And if you are putiing this **`.addEventListener`**, this also registers a `Callback` on an Event and that Event is _**`Click`**_
+
+
+
+
+
+
+
+
+
+
+
 
 
 
