@@ -123,7 +123,12 @@
 ### _Example 2_
 ![Event Listener before Execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/b4ab4ef0-b88b-4fa8-9713-f0f0ef5f9192)
 
-![2 - correct](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/73a5651d-1f7a-4327-acab-a777ee8b6523)
+![2nd step - final](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/db12d1a7-1b21-453e-8841-030270c62b31)
+
+![3](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/38c49573-5a1f-4108-8908-49451da6387f)
+
+![4](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/59ce718b-57a1-4e76-ade3-7fecca37c1a6)
+
 
 
 
@@ -141,7 +146,7 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - Now, JavaScript will move on and execute the **`console.log("End");`**
 - Thereaftre, there is nothing to execute over here, so the **_Global Execution Context_** also **_pops off_** from the _Call Stack_
 - But this _**Event Listener**_ will stay over here in the _**Web API environmnet**_ until and unless we explicitly **_remove_** that Event Listener or we like **_close the browser_**
-- So this registered callback method inisde the WEP API environment just sits over there in the hope that some user will someday click on the button.
+- So this registered callback method inisde the Web API environment just sits over there in the hope that some user will someday click on the button.
 - Wen the user clicks on the button, is then pushed inside the **_Callback Queue_** and Callback method (cb()) goes in the _**Callback Queue**_ and waits overe here for its turn to get executed
 
 ### _More about EVENT LOOP_
