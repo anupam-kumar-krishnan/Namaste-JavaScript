@@ -121,6 +121,10 @@
 
 ## _How Event Listners Work_
 ### _Example 2_
+![Event Listener before Execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/b4ab4ef0-b88b-4fa8-9713-f0f0ef5f9192)
+
+![2](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/91624851-2ab9-40a7-a041-ec8493d7f6ba)
+
 - Whenever you run a JavaScript code, a Global Execution Context(GEC) is created and pushed inside the **_Call Stack_**
 - Code is executed line by line
 - It moves to the first line and sees the `console.log("Start");` and it goes to the console(which is inside Web API, calls this method - Web API method) and logs in the console over here
@@ -129,6 +133,39 @@
 which basically in turn _**fetches**_ something from the **_Document Object Model[DOM](it is like the HTML source code_**
 - This _**DOM API**_ basically **access** the **_HTML code_** and tries to find out a _**button**_ with some `id` and **return** it
 - And if you are putiing this **`.addEventListener`**, this also registers a `Callback` on an Event and that Event is _**`Click`**_
+- _**How **`.addEventListener`** registers a `Callback` on an Event?**_
+    - Over here inside the Web APIs environment, a **`Callback`** will be registered and an **Event** will be attached to it.
+    - So this is known as **`Registering a Callback`** 
+- Now, JavaScript will move on and execute the **`console.log("End");`**
+- Thereaftre, there is nothing to execute over here, so the **_Global Execution Context_** also **_pops off_** from the _Call Stack_
+- But this _**Event Listener**_ will stay over here in the _**Web API environmnet**_ until and unless we explicitly **_remove_** that Event Listener or we like **_close the browser_**
+- So this registered callback method inisde the WEP API environment just sits over there in the hope that some user will someday click on the button.
+- Wen the user clicks on the button, is then pushed inside the **_Callback Queue_** and Callback method (cb()) goes in the _**Callback Queue**_ and waits overe here for its turn to get executed
+
+### _More about EVENT LOOP_
+
+![2 - i event loop   callback after execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/dfe6b8bd-ca0f-438a-b4fb-847c991b4566)
+
+![Event Listener after Execution once without callback executing - 3](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/cba9cb8f-2ac0-42ea-b5ca-65f83b304581)
+
+
+- Event Loop has just one job
+- It's only job is to like continuously **monitor** the _**Call Stack**_ as well as the _**Callback Queue**_
+- If the Call Stack is empty and this Event loop sees that there is also a function waiting to be executed in the Callback Queue.
+- So Event Loop just takes the function and pushes indise the _Call Stack._ And the callback method is like quickly executed then.
+- So now the callback method runs the code line by line, and just sees the **`console.log("Callback");`** , it prints this callback inside the console
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
