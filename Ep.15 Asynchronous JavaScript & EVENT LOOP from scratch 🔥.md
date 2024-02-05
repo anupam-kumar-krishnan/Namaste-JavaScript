@@ -113,7 +113,7 @@
 
 - The job of the **_Event Loop_** is to _check the Callback Queue_ and put the **_functions_** of the Callback Queue into the **_Call Stack_**
 - So Event Loop over here acts like a Gate Keeper and it checks whether we have something in the Callback Queue and if we have something, it finds the **_callback_** method in **_Callback Queue_**, it just pushes inside the **_Call Stack_** and Call Stack quickly executes the _**Callback function**_
-- Callback function executes the sme way as JavaScript usually executes. It creates an Execution Context, pushes that Callback inside it and it runs this callback function line by line over here, it sees the `console.log("Callback"); and when it sees the console it goes to the console(in the Web API) and actually logs it into the console.
+- Callback function executes the sme way as JavaScript usually executes. It creates an Execution Context, pushes that Callback inside it and it runs this callback function line by line over here, it sees the **_`console.log("Callback");`_** and when it sees the console it goes to the console(in the Web API) and actually logs it into the console.
 
 ![event loop   callback after execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/70d56acc-49a3-4ce8-9a72-6570d4ea0176)
 
