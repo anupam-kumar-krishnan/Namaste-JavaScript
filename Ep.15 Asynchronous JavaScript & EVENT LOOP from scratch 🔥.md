@@ -113,13 +113,13 @@
 
 - The job of the **_Event Loop_** is to _check the Callback Queue_ and put the **_functions_** of the Callback Queue into the **_Call Stack_**
 - So Event Loop over here acts like a Gate Keeper and it checks whether we have something in the Callback Queue and if we have something, it finds the **_callback_** method in **_Callback Queue_**, it just pushes inside the **_Call Stack_** and Call Stack quickly executes the _**Callback function**_
-- Callback function executes the sme way as JavaScript usually executes. It creates an Execution Context, pushes that Callback inside it and it runs this callback function line by line over here, it sees the **_`console.log("Callback");`_** and when it sees the console it goes to the console(in the Web API) and actually logs it into the console.
+- Callback function executes the same way as JavaScript usually executes. It creates an Execution Context, pushes that Callback inside it and it runs this callback function line by line over here, it sees the **_`console.log("Callback");`_** and when it sees the console it goes to the console(in the Web API) and actually logs it into the console.
 
 ![event loop   callback after execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/70d56acc-49a3-4ce8-9a72-6570d4ea0176)
 
 
 
-## _How Event Listners Work_
+## _How Event Listeners Work_
 ### _Example 2_
 ![Event Listener before Execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/b4ab4ef0-b88b-4fa8-9713-f0f0ef5f9192)
 
@@ -139,7 +139,7 @@
 - So whenever you do something like **_`document.`_** it basically calling the _**DOM APIs**_
 which basically in turn _**fetches**_ something from the **_Document Object Model[DOM](it is like the HTML source code_**
 - This _**DOM API**_ basically **access** the **_HTML code_** and tries to find out a _**button**_ with some `id` and **return** it
-- And if you are putiing this **`.addEventListener`**, this also registers a `Callback` on an Event and that Event is _**`Click`**_
+- And if you are putting this **`.addEventListener`**, this also registers a `Callback` on an Event and that Event is _**`Click`**_
 - _**How **`.addEventListener`** registers a `Callback` on an Event?**_
     - Over here inside the Web APIs environment, a **`Callback`** will be registered and an **Event** will be attached to it.
     - So this is known as **`Registering a Callback`** 
@@ -147,7 +147,7 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - Thereaftre, there is nothing to execute over here, so the **_Global Execution Context_** also **_pops off_** from the _Call Stack_
 - But this _**Event Listener**_ will stay over here in the _**Web API environmnet**_ until and unless we explicitly **_remove_** that Event Listener or we like **_close the browser_**
 - So this registered callback method inisde the Web API environment just sits over there in the hope that some user will someday click on the button.
-- Wen the user clicks on the button, is then pushed inside the **_Callback Queue_** and Callback method (cb()) goes in the _**Callback Queue**_ and waits overe here for its turn to get executed
+- When the user clicks on the button, is then pushed inside the **_Callback Queue_** and Callback method (cb()) goes in the _**Callback Queue**_ and waits overe here for its turn to get executed
 
 ### _More about EVENT LOOP_
 
