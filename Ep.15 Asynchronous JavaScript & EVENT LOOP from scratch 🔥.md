@@ -24,7 +24,7 @@
 - But hold on, what if we need to wait for something.
 - Suppose, we have a program or a script which needs to be run after 5seconds.
    - Can we do that? No, we can't do that because whatever comes inside this call Stack gets quickly executed
-   - If you give a script and say that execute it 5seconds later then it cannot do that because it(call stack) doesn't not a timer.
+   - If you give a script and say that execute it 5seconds later then it cannot do that because it(call stack) doesn't have a timer.
 <br><br>
 - Suppose we have to keep the track of time and we have to execute some piece of code after certain delay. We will need some extra **_Super Powers._** That Super Powers of **_Timers_** 
 
