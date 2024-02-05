@@ -101,13 +101,23 @@
 
 ## _Event Loop & Callback Queue_
 
+![event loop   callback before](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/e9c853e1-0591-419a-a91f-d699397eb739)
+
+
 - Now comes into the picture the _**Event Loop**_ and _**Callback Queue**_
 - As we know, we somehow needs this _Callback(cb)_ in the _**Call Stack.**_ But it **_can't go directly._**
 - How does this Callback function (cb) go to the _**Call Stack**_
   - It wil go to the _Call Stack_ through this **_Callback Queue_**
-  - So when the **timer expires**, this **callaback** function is put inside the **_Callback Queue_**
+  - So when the **timer expires**, this **callback** function is put inside the **_Callback Queue_**
+  - So as soon as the **5000ms** timer expires, the _**callback function**_ over here is pushed inside the **_Callback Queue_**
+
 - The job of the **_Event Loop_** is to _check the Callback Queue_ and put the **_functions_** of the Callback Queue into the **_Call Stack_**
-- So Event Loop over here acts like a Gate Keeper and it checks whether we have something in the Callback Queue and if we have something, it just pushes inside the **_Call Stack_** 
+- So Event Loop over here acts like a Gate Keeper and it checks whether we have something in the Callback Queue and if we have something, it finds the **_callback_** method in **_Callback Queue_**, it just pushes inside the **_Call Stack_** and Call Stack quickly executes the _**Callback function**_
+- Callback function executes the sme way as JavaScript usually executes. It creates an Execution Context, pushes that Callback inside it and it runs this callback function line by line over here, it sees the `console.log("Callback"); and when it sees the console it goes to the console(in the Web API) and actually logs it into the console.
+
+![event loop   callback after execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/70d56acc-49a3-4ce8-9a72-6570d4ea0176)
+
+
 
 ## _How Event Listners Work_
 ### _Example 2_
