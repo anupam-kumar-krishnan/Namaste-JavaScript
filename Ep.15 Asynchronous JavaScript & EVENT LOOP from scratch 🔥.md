@@ -161,6 +161,22 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - If the Call Stack is empty and this Event loop sees that there is also a function waiting to be executed in the Callback Queue.
 - So Event Loop just takes the function and pushes indise the _Call Stack._ And the callback method is like quickly executed then.
 - So now the callback method runs the code line by line, and just sees the **`console.log("Callback");`** , it prints this callback inside the console
+- When the `Event Loop` picks the _**callback**_ from the callback queue, it then **_removes_** from the _Callback Queue_
+
+## _Why do we need Event Loop_
+- Suppose user clicks on a button 7-8 times continuously, it that case the callabck will be pushed inside Callback Queue for 7-8 times.
+- There will be 7-8 Callback functions waiting to get executed inside this _**Callback Queue**_
+= We will have a queue of Callback functions waiting to be executed
+- And Event Loop will continuously check whether the Call Stack is empty or not. And if the Call Stack is _**Empty**_ and there is some function lined up to be executed in the Callback Queue. So _**Event Loop**_ takes that function and put it inside the **_Call Stack_**
+- And Slowly slowly, the **_Callback function_** pops off from the _**Callback Queue**_ 
+
+
+![callback queue](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/ba23080f-a430-454b-8631-40b9e3ce9435)
+
+## _How fetch() function works_
+- 
+
+
 
 
 
