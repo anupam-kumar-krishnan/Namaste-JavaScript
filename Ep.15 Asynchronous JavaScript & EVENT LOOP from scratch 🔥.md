@@ -123,7 +123,8 @@
 ### _Example 2_
 ![Event Listener before Execution](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/b4ab4ef0-b88b-4fa8-9713-f0f0ef5f9192)
 
-![2](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/91624851-2ab9-40a7-a041-ec8493d7f6ba)
+![2 - correct](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/c914a222-7e58-4e70-aa6f-c4d671473ce1)
+
 
 - Whenever you run a JavaScript code, a Global Execution Context(GEC) is created and pushed inside the **_Call Stack_**
 - Code is executed line by line
