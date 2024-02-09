@@ -87,12 +87,12 @@
 - Now, we move to the next line, **`setTimeout`** => this `setTimeout` will basically go and _**call**_ this _**Web API**_ and this gives us **_access_** to this **_Timer feature of this browser._**
 - And this setTimeout, take a callback function and some delay.
 - When you pass this function to setTimeout, this basically registers a callback
-- And bacause we pass this _**delay**_, it also starts a timer of _**5000ms**_
+- And because we pass this _**delay**_, it also starts a timer of _**5000ms**_
 - And JavaScript code moves to the next line, it doesn't wait for anyone
 - Moving to the next line, it sees _**`console.log("End");`**_ , and again it calls the console from the Web APIs through `window` and logs this **_`End`_** in the console.
 - Now this `Timer` is still running, it is just count 5000ms and we are done with executing all our code
 - And once all our code is done executing, the _**Global Execution Context**_ just pops of the stack 
-- And meanwhile all this is happening, this timer is still running, doing a countdown og 5, 4, 3, .... and as soon as this timer expires, this **_callback funtion(cb)_** needs to be executed 
+- And meanwhile all this is happening, this timer is still running, doing a countdown of 5, 4, 3, .... and as soon as this timer expires, this **_callback funtion(cb)_** needs to be executed 
 - And because we know, all our code in JavaScript is Executed inside this _**Call Stack**_ , we somehow need this callback function(cb) inside this **_Call Stack_**
 - This _Call Stack_ job is to quickly execute whatever comes inside it(as it is empty currently)
 
@@ -144,9 +144,9 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
     - Over here inside the Web APIs environment, a **`Callback`** will be registered and an **Event** will be attached to it.
     - So this is known as **`Registering a Callback`** 
 - Now, JavaScript will move on and execute the **`console.log("End");`**
-- Thereaftre, there is nothing to execute over here, so the **_Global Execution Context_** also **_pops off_** from the _Call Stack_
+- Thereafter, there is nothing to execute over here, so the **_Global Execution Context_** also **_pops off_** from the _Call Stack_
 - But this _**Event Listener**_ will stay over here in the _**Web API environmnet**_ until and unless we explicitly **_remove_** that Event Listener or we like **_close the browser_**
-- So this registered callback method inisde the Web API environment just sits over there in the hope that some user will someday click on the button.
+- So this registered callback method inside the Web API environment just sits over there in the hope that some user will someday click on the button.
 - When the user clicks on the button, is then pushed inside the **_Callback Queue_** and Callback method (cb()) goes in the _**Callback Queue**_ and waits overe here for its turn to get executed
 
 ### _More about EVENT LOOP_
@@ -159,12 +159,12 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - Event Loop has just one job
 - It's only job is to like continuously **monitor** the _**Call Stack**_ as well as the _**Callback Queue**_
 - If the Call Stack is empty and this Event loop sees that there is also a function waiting to be executed in the Callback Queue.
-- So Event Loop just takes the function and pushes indise the _Call Stack._ And the callback method is like quickly executed then.
+- So Event Loop just takes the function and pushes inside the _Call Stack._ And the callback method is like quickly executed then.
 - So now the callback method runs the code line by line, and just sees the **`console.log("Callback");`** , it prints this callback inside the console
 - When the `Event Loop` picks the _**callback**_ from the callback queue, it then **_removes_** from the _Callback Queue_
 
 ## _Why do we need Event Loop_
-- Suppose user clicks on a button 7-8 times continuously, it that case the callabck will be pushed inside Callback Queue for 7-8 times.
+- Suppose user clicks on a button 7-8 times continuously, it that case the callback will be pushed inside Callback Queue for 7-8 times.
 - There will be 7-8 Callback functions waiting to get executed inside this _**Callback Queue**_
 = We will have a queue of Callback functions waiting to be executed
 - And Event Loop will continuously check whether the Call Stack is empty or not. And if the Call Stack is _**Empty**_ and there is some function lined up to be executed in the Callback Queue. So _**Event Loop**_ takes that function and put it inside the **_Call Stack_**
