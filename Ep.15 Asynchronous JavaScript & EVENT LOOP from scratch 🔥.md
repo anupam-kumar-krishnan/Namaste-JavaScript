@@ -179,6 +179,8 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - fetch() function returns a `Promise` and we have to pass a _**callback**_ function which will be executed once this _**Promise** is resolved_
 - **_Promise is resolved_** means when we get this(`https://api.netflix.com`) data, then we actually just execute the callback function
 
+![Step 1](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/d5ba7a87-c2a9-417d-88cf-c1b8311c254c)
+
 
 ### **_Code Working Explanation_**
 - Global Execution Context is created, pushed inside the call stack
@@ -187,16 +189,28 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - Print **_Start_** in console
 - JavaScript Engine moves to the next line
 <br><br>
+
+![Step 2](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/779a0dfc-99d6-4939-8eee-3a6d6e3b109b)
+
 - Now, code moves to the next line
 - The setTimeout will basically register the setTimeout function(cbT()) in the Web APIs
 - And we also have the 5000s **_Timer Started_**
 - JavaScript Engine moves to the next line
+
 <br><br>
+
+![Step 3](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/992133d2-f02c-4d63-a22d-76069ec0dbcd)
+
+
 - Now, we have the fetch function
 - fetch is a Web API which is used to make network calls
 - It basically also registers the Callback function(cbF()) into the  Web APIs environment
 - Now, we have cbF() and cbT() in the Web APIs environment
+
 <br><br>
+
+![Step 4](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/e434061d-df0f-4cec-a836-14acd59d2f27)
+
 - cbT() function is waiting for the timer to expire, so that it can see the light of the day throught the Callback Queue
 - And cbF() function is waiting for the data to be returned from the servers
 - So this fetch function will basically make a network call to the Nextflix Servers
@@ -215,6 +229,8 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - Whatever functions comes inside _**Microtask Queue**_ will be **_executed first_** and functions inside the _**Callback Queue**_ are executed later
 
 <br>
+
+![Step 4](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/e434061d-df0f-4cec-a836-14acd59d2f27)
 
 - _**Now, what comes inside MicroTask Queue?**_
    - The function cbF() incase of Promises, incase of network calls will go to the _**Microtask Queue**_
@@ -240,6 +256,13 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - Now the Global Execution Context will be _**popped out**_ from the stack
 
 <br>
+
+![Step 5](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/0a5a7be0-704c-4e4e-b13b-6f903e2fbd14)
+![Step 6](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/fec3a901-32e9-44b6-9b6b-f56e81abf449)
+![Step 7](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/f24a2809-1244-4d7a-b73f-ccb65c6055fb)
+![Step 8](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/bd9849e3-3deb-4bae-8363-4603734af72a)
+
+
 
 - So, this Event Loop is continuously monitoring the Call Stack and once it is Empty, it also sees that there are some task pending inside the `MicroTask Queue` and `Callback Queue`
 - But because this `MicroTask Queue` has the higher priority, it gives the chance to **`cbF()`** function to get inside the _**Call Stack**_
