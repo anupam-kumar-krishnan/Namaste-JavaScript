@@ -221,11 +221,72 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 - And again, the job of _Event Loop_ is to keep on checking whether the _**Call Stack**_ is Empty or not
 - And once the _**Call Stack**_ is empty, then it gives the chance to the functions present in the _**Callback Queue**_ to see the light of the day inside the Call Stack
 - But, right now, we are not done with executing the fetch() code, but we already got the response from the netflix servers.
+
+<br>
+
 - But still, suppose there are number of lines still left to run after fetch function which are gonna be executed
 - And it takes some time to execute this, but we are running these millions of line in the main thread
 - But the cbF() function is waiting to get executed
 - Meanwhile, we are running the code, the timer also expires(the browser isn't doing one thing)
 - Now the `callback function cbT()` wants to be executed
+- As the timer has _**expired**_ and both the task `cbF()` and `cbT()` are waiting to be executed. And the code is still running.
+
+<br>
+
+- Now, the job of the Call Stack is to continuously check whether _**Call Stack**_ is _**Empty**_ or not
+- If _**Call Stack**_ is Empty then just schedule these tasks (cbF() and cbT())
+- Suppose the million line of code is finished executing now, ans we reach the end of the line of progam `console.log("End");` 
+- _**`End`**_ will be printed in console first and then there is nothing to execute
+- Now the Global Execution Context will be _**popped out**_ from the stack
+
+<br>
+
+- So, this Event Loop is continuously monitoring the Call Stack and once it is Empty, it also sees that there are some task pending inside the `MicroTask Queue` and `Callback Queue`
+- But because this `MicroTask Queue` has the higher priority, it gives the chance to **`cbF()`** function to get inside the _**Call Stack**_
+- Execution Context will be created and the code will run line by line for cbF() function
+- It console.logs **`CB Netflix`** in the console
+- And **`cbF()`** is _**popped off**_ from the **_Call Stack_** as well as from **_MicroTask Queue_**
+- Similarly, cbT() will be pushed inside Call Stack by Event Loop when it sees Call Stack Empty
+- And then cbT() function runs line by line
+- Finally, cbT() consoles `CB SetTimeout` and the program is **_finished executing._**
+
+## _What can come inside this MicroTask Queue_
+- All the _**callback**_ functions which comes through _**promises**_ will go inside this _**MicroTask Queue**_
+- **_Mutation Observer:_** 
+   - It keeps on checking whether there is some mutation in the DOM tree or not
+   - If there is `Mutation` in the `DOM Tree`, it can execute some callback function
+- `Promises` & `Mutation Observer` goes inside this _**MicroTask Queue**_  
+
+<br>
+
+- But all the other Callback functions(setTimeout, EventListeners, etc) all that goes inside the _**Callback Queue**_
+- _**Callback Queue**_ is also known with fancy name: _**Task Queue**_
+
+<br>
+
+## _Starvation of Functions in Callback Queue_
+- **_Event Loop_** gives task to **_MicroTask Queue_** first chance before any of the **_Callback Queue Task_**
+- Suppose the MicroTask Queue creates a  new MicroTask in itself and so on... So the Callback Queue Task will never get a chance to execute for a long time since there are a lot of task in MicroTask
+- The above case is known as _**Starvation of Functions in Callback Queue**_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
