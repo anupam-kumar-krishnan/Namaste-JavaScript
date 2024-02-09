@@ -174,7 +174,87 @@ which basically in turn _**fetches**_ something from the **_Document Object Mode
 ![callback queue](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/ba23080f-a430-454b-8631-40b9e3ce9435)
 
 ## _How fetch() function works_
-- 
+- This time in our code, we have setTimeout() as well as Fetch() function.
+- **_fetch():_** fetch basically goes and requests an API call
+- fetch() function returns a `Promise` and we have to pass a _**callback**_ function which will be executed once this _**Promise** is resolved_
+- **_Promise is resolved_** means when we get this(`https://api.netflix.com`) data, then we actually just execute the callback function
+
+
+### **_Code Working Explanation_**
+- Global Execution Context is created, pushed inside the call stack
+- Code is Executed line by line
+- We do a `console.log` of "Start" , it prints into the console
+- Print **_Start_** in console
+- JavaScript Engine moves to the next line
+<br><br>
+- Now, code moves to the next line
+- The setTimeout will basically register the setTimeout function(cbT()) in the Web APIs
+- And we also have the 5000s **_Timer Started_**
+- JavaScript Engine moves to the next line
+<br><br>
+- Now, we have the fetch function
+- fetch is a Web API which is used to make network calls
+- It basically also registers the Callback function(cbF()) into the  Web APIs environment
+- Now, we have cbF() and cbT() in the Web APIs environment
+<br><br>
+- cbT() function is waiting for the timer to expire, so that it can see the light of the day throught the Callback Queue
+- And cbF() function is waiting for the data to be returned from the servers
+- So this fetch function will basically make a network call to the Nextflix Servers
+- And the Netflix server will return the data back to fetch
+- And once we get the data over here(fetch() function), this callback function(cbF()) is now ready to be executed
+- Suppose the Netflix servers are super fast and returns the data within 50ms
+- After 50ms we got the data from the Netflix servers here(cbF())
+- Now the cbF() is ready to be executed
+<br><br>
+- Now what will happen?
+  - cbF() will go to the _**Callback Queue**_ that is what we expect, but _**NO**_
+
+## _MicroTask Queue in JS_
+- Just like this _**Callback Queue,**_ we also have something known as _**MicroTask Queue**_
+- This _**Microtask Queue**_ is exactly similar to this _**Callback Queue**_ but it has **_higher priority_**
+- Whatever functions comes inside _**Microtask Queue**_ will be **_executed first_** and functions inside the _**Callback Queue**_ are executed later
+
+<br>
+
+- _**Now, what comes inside MicroTask Queue?**_
+   - The function cbF() incase of Promises, incase of network calls will go to the _**Microtask Queue**_
+- And again, the job of _Event Loop_ is to keep on checking whether the _**Call Stack**_ is Empty or not
+- And once the _**Call Stack**_ is empty, then it gives the chance to the functions present in the _**Callback Queue**_ to see the light of the day inside the Call Stack
+- But, right now, we are not done with executing the fetch() code, but we already got the response from the netflix servers.
+- But still, suppose there are number of lines still left to run after fetch function which are gonna be executed
+- And it takes some time to execute this, but we are running these millions of line in the main thread
+- But the cbF() function is waiting to get executed
+- Meanwhile, we are running the code, the timer also expires(the browser isn't doing one thing)
+- Now the `callback function cbT()` wants to be executed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
