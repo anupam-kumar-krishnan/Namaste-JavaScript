@@ -81,6 +81,48 @@
 - In case of Compiler, we have more `Efficiency`, but in case of Interpreter we have more `Speed`
 
 ## _Is JavaScript Interpreted Language or Compiled Language?_
+- When JavaScript was initially created by **_`Brendan Eich`_** , it was supposed to be an Interpreted Language. i.e. The JavaScript Engine which he wrote uses a Interpreter to Execute the Code
+- Because it used to majorly run on Browsers and Browsers can't wait for that code to Compile before running or executing everything
+- So it was an `Interpretor Language`
+
+- But now, today you see most of the modern browsers you see and most of the modern JavaScript Engines uses an **`Interpreter`** plus(+) a **`Compiler`** both
+- So now, it all depends on the JS Engine whether it is purely Interpreted or Just In Time(JIT) Compiled
+
+## _JIT Compilation_
+- JIT Compilation is like the best of the both Worlds
+- It uses both **`Interpreter`** plus(+) a **`Compiler`** to execute the code
+- So now, `Compilation` + `Execution` both goes hand in hand
+- After **_Parsing_** we got this _Abstract Syntax Tree(AST)_ , so this AST goes to the **_`Interpreter`_**
+- So now this **_`Interpreter`_** converts our **_High Level Code_** to **_Byte Code_** and that code moves to the **_`Execution Step`_**
+- And while it is doing so, it takes the help of the _**`Compiler`**_ to **_Optimise the Code_**
+- So when **_Compiler_** talks to the **_Interpretter_** and while the code is executing line by line, the _Compiler also tries to Optimise the Code as much as it can on the runtime._
+- It is not just one Phase process, but it can happen in multiple phases
+- In some JavaScript Engines, there is something known as **_Ahead of Time(AOT)._** In that case, the compiler basically takes the piece of code which is going to be executed later and tries to Optimise it as much as it can.
+- And it also produces the byte code which is then goes to the **_`Execution Phase`_**
+<br>
+
+- And the _**Execution**_ here is not possible without the two major Componenets of the **_JavaScript Engine_**.
+- Those 2 components are the **_Memeory Heap_** & the **_Call Stack_**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
