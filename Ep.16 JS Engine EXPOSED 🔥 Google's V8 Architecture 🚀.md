@@ -103,6 +103,40 @@
 
 - And the _**Execution**_ here is not possible without the two major Componenets of the **_JavaScript Engine_**.
 - Those 2 components are the **_Memeory Heap_** & the **_Call Stack_**
+- **_Mememory Heap_** is the space where all the **_variables & functions_** are assigned **_Memory_** 
+
+## _Garbage Collector_
+- We also have Garbage Collector, it basically tries to free up **_Memory Space_** whenever possible
+- Whenever some function is not being used or we clear the timeout. So basiccaly it collects all the **_garbage_** and sweeps it
+- So, it uses an algorithm which is known as **_Mark & Sweep Algorithm_** 
+
+### _There are many other forms of optimisations which a compiler does for the code_
+**_And those optimisations are like:_**
+- Inlining
+- Copyalision
+- Inline Caching
+
+## _Fastest JavaScript Engine - Google v8_
+
+![v8 Engine](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/4386a377-1a88-4921-b808-f0e1bd3b1db8)
+
+- The fastest JavaScript Engine ever created is Google's v8 Engine
+- v8 has an _Interpretter_ which is known as **_Ignition_**
+- Along with that we have _**Turbo Fan,**_ the _Optimising Compiler_
+- These **_Ignition_** & **_Turbo Fan_** is making the code run very **_Fast_**
+- It also has a _Garbage Collector_ known as **_Orinoco._**
+- It uses the **_Mark & Sweep Algorithm_**
+
+
+
+
+
+
+
+
+
+
+
 
 
 
