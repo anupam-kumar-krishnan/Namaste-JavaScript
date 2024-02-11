@@ -1,5 +1,6 @@
 # _TRUST ISSUES 💔 with setTimeout()_
-![trust issues - setTimeout](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/e83d4794-b97f-42a1-948a-59acd7823de1)
+
+![trust issues - setTimeout -](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/assets/69143883/86e5e7a1-7e83-40c8-b727-ce38fb15b56d)
 
 - A **_`setTimeout`_** with a delay of **5000ms** _doesn't always exactly wait_ for **5s**
 - There are **_Trust Issues_**
@@ -103,6 +104,50 @@ Callback
 ```
 
 </b>
+
+## _What if the setTimeout is ZERO_
+- **_What is the meaning of delaying a function for zero seconds?_**
+   - What people think that as the delay is of zero seconds, it doesn't have to ait for even a single second
+   - But that is not the case. 
+   - Even if the timer over here is 0ms, the function has to go through the _**Queue**_
+   - That means, it will register a _**Callback**_ into the Web API environment and JavaScript will not wait for anything and logs **`End`**
+  - Though the timer has expired long back, it moves into the **_Callback Queue_** and it will get the chance to execute once the **_Call Stack_** is **Empty**
+  - After _**Global Execution Context**_ is **out** of the **_Call Stack_** then only this **_Callback Function_** will get a _chance to be Executed_
+
+
+
+<b>
+
+```js
+console.log("Start");
+
+setTimeout(function cb()) {
+    console.log("Callback");
+}, 0);
+
+console.log("End");
+
+// Output
+// Start
+// End
+// Callback
+```
+</b>
+
+### _Why would someone delay for 0s_
+- If you want to **_defer_** some piece of code
+- You don't have to execute that piece of code at that point of time
+
+### _Concurrency Model in JavaScript_
+- The concurrency model of JavaScript is based on the concept of an “event loop”. This model enables JavaScript to carry out non-blocking I/O operations despite being a single-threaded language. This capability is made possible by offloading certain operations to the system kernel whenever possible.
+
+
+
+
+
+
+
+
 
 
 
