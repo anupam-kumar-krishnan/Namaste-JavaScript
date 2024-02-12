@@ -157,7 +157,7 @@ console.log(output);
 //  ['akshay saini', 'donald trump', 'elon musk', 'deepika padukone']
 ```
 
-## _Tricky Example_
+## _Tricky Example - reduce()_
 
 ```js
 const users = [
@@ -168,7 +168,47 @@ const users = [
 ];
 
 // What are different age in this array and how many people are there of this age
-// {26 : 2, 75 : 1, 50 : 1}
+// acc = {26 : 2, 75 : 1, 50 : 1}
+
+const output = users.reduce(function(acc, curr){
+  if(acc[curr.age]){
+  acc[curr.age] = ++acc[curr.age];
+  }
+  else {
+    acc[curr.age] = 1;
+  }
+ return acc;
+}, {});
+
+console.log(output);
+// {26: 2, 50: 1, 75: 1}
+```
+
+## _Chaining map, filter & reduce_
+
+```js
+const users = [
+ { firstName: "akshay", lastName: "saini", age: 26 },
+ { firstName: "donald", lastName: "trump", age: 75 },
+ { firstName: "elon", lastName: "musk", age: 50 },
+ { firstName: "deepika", lastName: "padukone", age: 26 },
+];
+
+// Find out the firstName of all the people whole age is less than 30
+const output = users.filter(x => x.age < 30)
+console.log(output);
+
+// Output
+// (2) [{…}, {…}]
+// 0 : {firstName: 'akshay', lastName: 'saini', age: 26}
+// 1 : {firstName: 'deepika', lastName: 'padukone', age: 26}
+
+const outputChanningInMap = 
+    users.filter(x =>  x.age < 30)
+    .map(x) => x.firstName);
+
+console.log(outputChanningInMap);
+// [akshay", "deepika"]
 ```
 
 </b>
