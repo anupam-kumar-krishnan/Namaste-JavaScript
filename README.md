@@ -27,7 +27,7 @@
 ## _Table of Content🚀 #Season 2_
 | _Episodes_ | _Topic_ |
 |----|--------------------|
-| _**Episode 1**_ | _**Callback Hell**_ |
+| _**Episode 1**_ | _**Callback Hell👿**_ |
 | _**Episode 2**_ | _**Promises🤝**_ |
 
 
