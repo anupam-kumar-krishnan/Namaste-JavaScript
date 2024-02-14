@@ -1,7 +1,7 @@
 # _Namaste JavaScript_  
 ## _Season 01 and Season 02_
 
-## _Table of Content🚀_
+## _Table of Content🚀 #Season 1_
 | _Episodes_ | _Topic_ |
 |----|--------------------|
 | _**Episode 1**_ | _**How JavaScript Works🔥 & Execution Context**_ |
@@ -23,6 +23,14 @@
 | _**Episode 17**_ | _**TRUST ISSUES with setTimeout()**_ |
 | _**Episode 18**_ | _**Higher-Order Functions ft. Functional Programming**_ |
 | _**Episode 19**_ | _**map, filter & reduce**_ |
+
+## _Table of Content🚀 #Season 2_
+| _Episodes_ | _Topic_ |
+|----|--------------------|
+| _**Episode 1**_ | _**Callback Hell**_ |
+| _**Episode 2**_ | _**Promises🤝**_ |
+
+
 
 
 
