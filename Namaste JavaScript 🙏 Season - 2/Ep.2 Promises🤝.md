@@ -116,6 +116,19 @@ promise.then(function (orderId) {
 - And we will have the control of our program with us
 - And this gives us the trust that promise will call the callback function whenever there is data inside promise object
 
+### _Importance of Promises_ 
+- In the earlier piece of code, we had a lot of doubts like what if createOrder function might call our function twice or thrice or it might never call it
+- Promises handles it beautifully, as soon as we have data inside `Promise` it will call the function that is the gurantee given by JavaScript and it will call it just once and only once.
+- And we will also have the control of our program with us, as we are not passing our code to some other external function
+
+### _Promises Object in Browser_
+
+
+
+
+
+
+
 
 
 
