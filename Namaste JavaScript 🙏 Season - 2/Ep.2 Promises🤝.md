@@ -122,7 +122,52 @@ promise.then(function (orderId) {
 - And we will also have the control of our program with us, as we are not passing our code to some other external function
 
 ### _Promises Object in Browser_
+- If you want to see that object, we will use a function **_`fetch`_**
+- _**`fetch()`**_ - An API given by browsers to us to make external calls
+- fetch() function returns a **_`Promise`_**
 
+<b>
+
+```js
+const GITHUB_API = "https://api.github.com/users/akshaymarch7/"
+
+const user = fetch(GITHUB_API);
+
+/* Scope: 
+\/ Script:
+     GITHUB_API = "https://api.github.com/users/akshaymarch7/"
+\/   user: Promise
+       [[Prototype]]: Promise
+       [PromiseState]]: "pending"
+       [PromiseResult]]: undefined
+```
+</b>
+
+- As soon as the line of code is executed, we will get a **_`Promise`_** object inside this user 
+- So right now, this `Promise` is in a `pending` State
+- **_`PromiseResult:`_** it will store whatever data that fetch() will return
+- **_`PromiseState`_** : in what state your **_`Promise`_** is. Initially, the promise will be in pending state and once we got the data back, the promise state will chage to **_`fullfilled`_** state
+
+### _Deep dive into Promise States_
+
+<b>
+
+```js
+const GITHUB_API = "https://api.github.com/users/akshaymarch7/"
+
+const user = fetch(GITHUB_API);
+
+console.log(user);
+
+// Promise{<pending>}
+```
+</b>
+
+
+
+
+
+ 
 
 
 
