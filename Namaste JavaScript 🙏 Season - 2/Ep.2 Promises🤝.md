@@ -45,7 +45,7 @@ createOrder(cart, function() {
 
 ## _Promise🤝_
 - Promise is nothing but an empty object with some data value in it
-- And this dala value will hold whatever this createOrder(cart) API will return to us
+- And this data value will hold whatever this createOrder(cart) API will return to us
 
 <b>
 
@@ -64,7 +64,7 @@ const promise = createOrder(cart);
 ```
 </b>
 
-- Whenever JavaScript Engine will execute this line `const promise = createOrder(cart);` , thsi createOrder API will return us a `Promise` (an empty object)
+- Whenever JavaScript Engine will execute this line `const promise = createOrder(cart);` , this createOrder API will return us a `Promise` (an empty object)
 - And the program will go on executing, suppose there are more lines of code after that
 - Then after 5-6 seconds, this Empty Object(Promise) will be filled with data automatically and we will have order details in it after whatever Async time it takes
 
@@ -109,7 +109,7 @@ promise.then(function (orderId) {
 </b>
 
 ### _What improvement did we make in our code_
-- Earlier, we passed the callback function to createOrder API and we were blindly trusing createOrder API, we were relying on it
+- Earlier, we passed the callback function to createOrder API and we were blindly trusting createOrder API, we were relying on it
 - And in second case(promise), we are attaching a callback function to a `Promise` object. <br>
   In this case, we will have the control of our program with us.
 - How? createOrder API will only do it's job, it will create an order and it will fill the `promise` object with the data(the order ID) wherever it wants to and as soon as this `promise` object is filled with that data, it will automatically call our callback function back
@@ -118,7 +118,7 @@ promise.then(function (orderId) {
 
 ### _Importance of Promises_ 
 - In the earlier piece of code, we had a lot of doubts like what if createOrder function might call our function twice or thrice or it might never call it
-- Promises handles it beautifully, as soon as we have data inside `Promise` it will call the function that is the gurantee given by JavaScript and it will call it just once and only once.
+- Promises handles it beautifully, as soon as we have data inside `Promise` it will call the function that is the guarantee given by JavaScript and it will call it just once and only once.
 - And we will also have the control of our program with us, as we are not passing our code to some other external function
 
 ### _Promises Object in Browser_
@@ -140,6 +140,7 @@ const user = fetch(GITHUB_API);
        [[Prototype]]: Promise
        [PromiseState]]: "pending"
        [PromiseResult]]: undefined
+*/
 ```
 </b>
 
@@ -162,6 +163,15 @@ console.log(user);
 // Promise{<pending>}
 ```
 </b>
+
+- In the above code, fetch will return a Promise object and console.log will log that Promise
+- **_What will be the state and result of Promise will be?_**
+   - Remeber, fetch is an async operation and it takes some time to execute
+   - The above code logs **_`Promise <pending>`_** and PromiseState as **_"fulfilled"_**
+
+
+
+
 
 
 
