@@ -11,7 +11,7 @@
 
 
 ### _Is JavaScript Synchronous or Asynchronous?_ & _Is JavaScript Single Threaded or Multi-Threaded?_
-# **_JavaScript is a `Synchronous Single-Threaded Language`_**
+# **_"JavaScript is a `Synchronous Single-Threaded Language`"_**
 
 - **_Single-Threaded:_** It means JavaScript can only execute `one command at a time`
 - **_Synchronous Single-Threaded:_** It means executing one command at a time in a `specific order` 
