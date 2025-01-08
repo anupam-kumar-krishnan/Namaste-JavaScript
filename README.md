@@ -1,7 +1,7 @@
 # _Namaste JavaScript_  
 ## _Season 01 and Season 02_
 
-## _Table of Content🚀 Season 1_
+## _Table of Content 🚀 Season 1_
 | _Episodes_ | _Topic_ |
 |----|--------------------|
 | _**Episode 1**_ | _**How JavaScript Works🔥 & Execution Context**_ |
