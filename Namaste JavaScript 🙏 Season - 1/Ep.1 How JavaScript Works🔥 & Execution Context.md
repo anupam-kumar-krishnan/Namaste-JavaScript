@@ -2,6 +2,7 @@
 ## _How JavaScript Works?_
  _**- Everything in JavaScript happens inside an `Execution Context`**_
 
+
 ## _Execution Context_
 ### _Execution Context has two Components_
 - **_Memory:_** The place where all the variables and functions are stored as (key:value) pairs. Memory component is also known as **_Variable Environment_**
