@@ -2,6 +2,7 @@
 - An **`Execution Context`** is **_created_**
 
 ### _Execution Context is created in Two phases:_
+
  _**1. Memory Creation Phase:**_ In this phase, JavaScript runs through the program & allocates memory to all variables & functions. JavaScript swims throughout the whole code and allocate a special value **`undefined`**<br>
  _**2. Code Execution Phase:**_ In this phase, each line is executed line by line
 
