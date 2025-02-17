@@ -1,5 +1,4 @@
 # _Namaste JavaScript_  
-## _Season 1 and Season 2_
 
 ## _Table of Content 🚀 #Season 1_
 | _Episodes_ | _Topic_ |
