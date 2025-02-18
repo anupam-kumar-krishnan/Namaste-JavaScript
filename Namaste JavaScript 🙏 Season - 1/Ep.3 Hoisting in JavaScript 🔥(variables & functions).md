@@ -116,6 +116,11 @@ var getName2 = function() {
   console.log("Namaste JavaScript");
 }
 
+// valid function declaration
+function functionName() {
+
+}
+
 // Output
 // undefined    // it is because they behave as variable and not function.
 // undefined
