@@ -3,6 +3,8 @@
 - _**A/C to MDN Docs:**_ 
   - A <b><i>Closure</i></b> is the combination of a _**function**_ bundled together(enclosed) with referneces to its _**surrounding state (the lexical environment)**_. 
   - In Other words, a closure gives you access to an _**outer function's scope**_ from an _**inner function.**_
+  - JavaScript, a closure is the combination of a function and its lexical environment (the scope in which it was declared). This means that a function, when defined, "remembers" the variables and parameters from its outer (enclosing) function's scope, even after that outer function has finished executing.
+    
 <b>
 
 ```js
