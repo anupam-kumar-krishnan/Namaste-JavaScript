@@ -1,5 +1,7 @@
 ## _Function_
 
+- Functions are typically defined using the function keyword, followed by a name, parentheses () (which can contain parameters), and curly braces {} enclosing the function's code block. 
+
 <b>
 
 ```js
