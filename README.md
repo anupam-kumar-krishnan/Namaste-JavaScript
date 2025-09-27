@@ -1,6 +1,6 @@
 # _Namaste JavaScript_
 
-[Namaste JavaScript Playlist on YouTube](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)   
+[Namaste JavaScript Playlist on YouTube by Akshay Saini](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)   
 
 
 ## _Table of Content 🚀 #Season 1_
