@@ -1,4 +1,4 @@
-# _JavaScript_
+# _JavaScript Basics_
 
 **Definition:**<br>
 > "JavaScript is a lightweight, interpreted, object-oriented scripting language used primarily to add interactivity and dynamic features to web pages. It can also be used for server-side development with Node.js and building other applications."
