@@ -3,7 +3,7 @@
 [Namaste JavaScript Playlist on YouTube by Akshay Saini](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)   
 
 
-## _Table of Content 🚀 #Season 1_
+## _Table of Content - #Season 1_
 | _Episodes_ | _Topic_ |
 |----|--------------------|
 | _**Episode 1**_ | _**How JavaScript Works & Execution Context**_ |
