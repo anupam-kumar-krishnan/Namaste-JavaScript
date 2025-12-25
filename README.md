@@ -27,14 +27,14 @@
 | _**Episode 19**_ | _**map, filter & reduce**_ | **_[Notes - Episode 19](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/blob/main/Namaste%20JavaScript%20%F0%9F%99%8F%20Season%20-%201/Ep.19%20map%2C%20filter%20%26%20reduce.md)_** |
 
 ## _Table of Content🚀 #Season 2_
-| _Episodes_ | _Topic_ |
-|----|--------------------|
-| _**Episode 1**_ | _**Callback Hell**_ |
-| _**Episode 2**_ | _**Promises**_ |
-| _**Episode 3**_ | _**Creating a Promise, Chaining & Error Handling**_ |
-| _**Episode 4**_ | _**Promise API + Interview Questions**_ |
-| _**Episode 5**_ | _**Async Await**_ |
-| _**Episode 6**_ | _**THIS keyword**_ |
+| _Episodes_ | _Topic_ | _Notes_ |
+|----|--------------------|-----|
+| _**Episode 1**_ | _**Callback Hell**_ | **_[Notes - Episode 1](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/blob/main/Namaste%20JavaScript%20%F0%9F%99%8F%20Season%20-%202/Ep.1%20Callback%20Hell.md)_** |
+| _**Episode 2**_ | _**Promises**_ | **_[Notes - Episode 2](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/blob/main/Namaste%20JavaScript%20%F0%9F%99%8F%20Season%20-%202/Ep.2%20Promises%F0%9F%A4%9D.md)_** |
+| _**Episode 3**_ | _**Creating a Promise, Chaining & Error Handling**_ | **_[Notes - Episode 3](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/blob/main/Namaste%20JavaScript%20%F0%9F%99%8F%20Season%20-%202/Ep.3%20Creating%20a%20Promise%2C%20Chaining%20%26%20Error%20Handling.md)_** |
+| _**Episode 4**_ | _**Promise API + Interview Questions**_ | **_[Notes - Episode 4](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/blob/main/Namaste%20JavaScript%20%F0%9F%99%8F%20Season%20-%202/Ep.4%20async%20await.md)_** |
+| _**Episode 5**_ | _**Async Await**_ | **_[Notes - Episode 5](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/blob/main/Namaste%20JavaScript%20%F0%9F%99%8F%20Season%20-%202/Ep.4%20async%20await.md)_** |
+| _**Episode 6**_ | _**THIS keyword**_ | **_[Notes - Episode 6](https://github.com/anupam-kumar-krishnan/Namaste-JavaScript/blob/main/Namaste%20JavaScript%20%F0%9F%99%8F%20Season%20-%202/Ep.1%20Callback%20Hell.md)_** |
 
 
 
