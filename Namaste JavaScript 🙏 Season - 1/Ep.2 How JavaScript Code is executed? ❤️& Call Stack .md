@@ -26,6 +26,9 @@ Let's take an example:
 
 ### _Call stack maintains the order of execution of execution contexts_
 
+<img width="1133" height="593" alt="image" src="https://github.com/user-attachments/assets/5ca5cf8a-8790-4eba-9752-5d4fb8cb2b2e" />
+
+
 ## _Call stack is also known by below names_
 _**0. Call Stack**_ <br>
 _**1. Execution Context Stack**_ <br>
