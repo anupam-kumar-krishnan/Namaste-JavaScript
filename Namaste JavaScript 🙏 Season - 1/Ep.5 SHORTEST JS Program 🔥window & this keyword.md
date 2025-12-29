@@ -29,10 +29,10 @@ function b() {    // this function not inside any function. So global.
   var x = 5;      // not global as this variable is inside a function
  }
 
-console.log(window.a);  // gives us "a" value
-console.log(this.a);    // this points to window so it returns "a" value
-console.log(a);         // also gives same "a" value. (if we dont put any . in front of variable, it **assumes variable is in global space**
-console.log(x);         // x is not defined. (tries to find x inside global space, but it isn't there) 
+console.log(window.a);  // 10 | gives us "a" value
+console.log(this.a);    // 10 | this points to window so it returns "a" value
+console.log(a);         // 10 | also gives same "a" value. (if we dont put any . in front of variable, it **assumes variable is in global space**
+console.log(x);         // ReferenceError: x is not defined. (tries to find x inside global space, but it isn't there) 
 ```
 </b>
 
