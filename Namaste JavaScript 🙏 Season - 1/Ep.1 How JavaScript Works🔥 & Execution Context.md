@@ -3,6 +3,8 @@
 **Definition:**<br>
 > "JavaScript is a lightweight, interpreted, object-oriented scripting language used primarily to add interactivity and dynamic features to web pages. It can also be used for server-side development with Node.js and building other applications."
 
+> JavaScript is a high-level, interpreted programming language primarily used to build interactive and dynamic web applications. It runs in the browser and also on the server using environments like Node.js.
+
 **Uses:** <br>
 > "JavaScript is essential for front-end web development, enabling interactive user interfaces, animations, form validation, and real-time updates without page reloads. With Node.js, it's used for server-side development, building web and mobile applications, and even game development."
 
