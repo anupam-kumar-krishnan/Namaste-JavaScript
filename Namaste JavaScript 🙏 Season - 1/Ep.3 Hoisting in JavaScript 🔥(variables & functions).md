@@ -16,8 +16,11 @@ console.log(x);
 // Namaste JavaScript
 // 7
 ```
+
+### _Accessing function and variable even before initializing_
+
 ```js
-getName();       //  // in most languages, both lines which are above their declaration will give error. Not in JS though.
+getName();       //in most languages, both lines which are above their declaration will give error. Not in JS though.
 console.log(x);
 
 var x = 7;
@@ -28,8 +31,11 @@ function getName() {
 
 // Output
 // Namaste JavaScript
-// undefined
+//  undefined
 ```
+
+### _Accessing variable which is not even declared_
+
 ```js
 getName();
 console.log(x);
@@ -40,7 +46,7 @@ function getName() {
 
 // Output
 // Namaste JavaScript
-// not defined
+// Uncaught RefereceError: x is not defined
 ```
 
 </b>
