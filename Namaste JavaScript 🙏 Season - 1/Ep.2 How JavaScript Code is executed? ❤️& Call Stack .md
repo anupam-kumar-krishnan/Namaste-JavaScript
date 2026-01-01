@@ -24,10 +24,10 @@ Let's take an example:
 - Whenever any Javascript code is run, this call stack is populated with the Global Execution Context
 - Whenever a new Execution Context is created, it is pushed inside the stack
 
-### _Call stack maintains the order of execution of execution contexts_
+### _How Execution Context Works_
+<img width="1164" height="575" alt="image" src="https://github.com/user-attachments/assets/152d4162-f5f1-4898-a213-e52a557caea4" />
 
-<img width="1133" height="593" alt="image" src="https://github.com/user-attachments/assets/5ca5cf8a-8790-4eba-9752-5d4fb8cb2b2e" />
-
+### _"Call stack maintains the order of execution of execution contexts"_
 
 ## _Call stack is also known by below names_
 _**0. Call Stack**_ <br>
