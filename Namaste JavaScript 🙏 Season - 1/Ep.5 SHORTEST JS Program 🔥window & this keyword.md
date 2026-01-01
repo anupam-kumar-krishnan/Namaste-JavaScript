@@ -3,16 +3,19 @@
 - Shortest JavaScript Program is an empty JS file
 - Even if we haven't written anything, a Global Execution Context is created and sets up the memory space (though there is nothing setup memory, but still it does it's job)
 - JavaScript Engine also creates something known as `Window`
-- It creates the `GEC`, the `window` and the `this` variable
+- `Window` is a Global Object which is created along with `Global Execution Context`
+- Whenever a JavaScript code is run, it creates a `Global Execution Context`, along with `window` and `this` variable is created
 - Everywhere JS is running, there must be a `JavaScript Engine` there. For Chrome: v8
-- All these JS Engines has responsibility to create this global object
-- In case of browsers, it is known as `Window`
+- All these JS Engines has responsibility to create this `Global Object`
+- In case of browsers, it is known as `window`
 - At the global level, `this` is equal to `window`
 
 <b>
 
 ```js
-this === window -> true (at global level)
+this === window 
+
+// true [at global level]
 ```
 </b>
 
