@@ -1,4 +1,6 @@
 ## _undefined_
+- **Definition:**
+> In JavaScript, `undefined` is a primitive value and a global property that indicates a variable has been `declared but has not been assigned` a value. It acts as a default placeholder automatically assigned by the JavaScript engine in various scenarios. 
 - JavaScript tries to allocate memeory to the variables & function even before we run the code
 
 <b>
