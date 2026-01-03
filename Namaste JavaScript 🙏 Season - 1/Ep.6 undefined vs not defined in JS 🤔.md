@@ -24,6 +24,9 @@ var a=7;
 console.log(x); //not defined
 ```
 
+## _Not Defined_
+> In JavaScript, the phrase "not defined" refers to a ReferenceError that occurs when you try to access a variable, function, or object that has not been declared in the current scope. It means the JavaScript engine cannot find the identifier in its memory or symbol table. 
+
 ## _Check if a is undefined_
 
 ```js
