@@ -1,7 +1,46 @@
 ## _Hoisting_
 
+**_Definition:_** Hoisting is JavaScript’s behavior where variable and function declarations are processed before execution, allowing access to them based on how they are declared (var, let, const, functions).
+
+### _Variable Hoisting_
+
+`var`
+- Hoisted and initialized with undefined
+- Accessible before declaration (but value is undefined)
+
 <b>
 
+```js
+console.log(a); // undefined
+var a = 10;
+console.log(a); // 10
+```
+</b>
+
+`let` and `const`
+- Hoisted but NOT initialized
+- Stored in Temporal Dead Zone (TDZ)
+- Accessing before declaration → ReferenceError
+
+<b>
+
+```js
+console.log(b); // ❌ ReferenceError
+let b = 20;
+```
+
+```js
+console.log(c); // ❌ ReferenceError
+const c = 30;
+```
+</b>
+
+### _Temporal Dead Zone (TDZ)_
+
+- Time between entering scope and variable declaration where the variable exists but cannot be accessed.
+
+<b>
+   
 ```js
 var x = 7;
 
