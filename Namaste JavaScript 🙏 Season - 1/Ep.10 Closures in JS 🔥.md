@@ -1,4 +1,8 @@
 # _Closures_
+- _**Definition**_: A closure is created when a function “remembers” the variables from its outer (lexical) scope, even after that outer function has finished executing.
+- In simple words:
+> A function + its surrounding scope = closure
+
 - A _**function**_ bundled together with it's _**lexical environment**_ is known as _**Closure**_
 - _**A/C to MDN Docs:**_ 
   - A <b><i>Closure</i></b> is the combination of a _**function**_ bundled together(enclosed) with referneces to its _**surrounding state (the lexical environment)**_. 
