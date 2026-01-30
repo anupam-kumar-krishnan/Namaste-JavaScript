@@ -4,7 +4,7 @@
 
 ### _Variable Hoisting_
 
-`var`
+### `var`
 - Hoisted and initialized with undefined
 - Accessible before declaration (but value is undefined)
 
@@ -17,7 +17,7 @@ console.log(a); // 10
 ```
 </b>
 
-`let` and `const`
+### `let` and `const`
 - Hoisted but NOT initialized
 - Stored in Temporal Dead Zone (TDZ)
 - Accessing before declaration → ReferenceError
