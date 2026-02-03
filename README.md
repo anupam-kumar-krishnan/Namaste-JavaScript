@@ -1,4 +1,4 @@
-# _Namaste JavaScript_
+# Namaste JavaScript
 
 [Namaste JavaScript Playlist on YouTube by Akshay Saini](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)   
 
