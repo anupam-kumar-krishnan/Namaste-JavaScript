@@ -1,6 +1,12 @@
 ## _map, filter & reduce_
 - map(), filter() and reduce() are Higher-Order functions in JavaScript
 
+| Method   | Purpose                                      | Output                                                       | Key Notes                                                                 |
+|----------|----------------------------------------------|--------------------------------------------------------------|---------------------------------------------------------------------------|
+| map()    | Transforms each element in the array.         | A new array of the same length with the transformed elements | Requires a return statement in the callback; otherwise, the new array will contain `undefined`. |
+| filter() | Selects elements based on a condition.        | A new array with only the elements that satisfy the condition (return `true`) | The callback function must return a boolean value.                         |
+| reduce() | Aggregates all elements into a single value.  | A single value (e.g., a number, string, or object)            | Takes an optional `initialValue` for the accumulator; an empty array without an initial value will throw an error. |
+
 ### _map()_
 - map function is basically used to transform an array
 
@@ -212,6 +218,9 @@ console.log(outputChanningInMap);
 ```
 
 </b>
+
+
+
 
 
 
